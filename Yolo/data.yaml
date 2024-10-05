@@ -1,0 +1,6 @@
+
+train: /mnt/lustre/helios-home/remisvoj/Projects/Tables/PubTables-1M-Detection/train/images  # Cesta ke složce s trénovacími obrázky
+val: /mnt/lustre/helios-home/remisvoj/Projects/Tables/PubTables-1M-Detection/val/images      # Cesta ke složce s validačními obrázky
+
+nc: 2  # Počet tříd
+names: ['table', 'table rotated']  # Názvy tříd
